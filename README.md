@@ -43,7 +43,7 @@ source ~/.zshrc
 ```
 
 ### Update VSCode Terminal Font
-Open settings.json and add this line:
+Open user settings.json and add this line:
 ```zsh
 "terminal.integrated.fontFamily": "MesloLGS NF"
 ```
