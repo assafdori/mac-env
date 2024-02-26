@@ -1,4 +1,4 @@
-# Mac Terminal Setup 💻
+# Mac Terminal Setup 🪄
 
 As of 26 February 2024 these instructions are my personal preference default settings for iTerm2 and VS Code environments.
 
