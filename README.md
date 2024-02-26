@@ -57,7 +57,7 @@ p10k configure
 ### Change iTerm2 Colors Theme (Optional)
 Download the following colors profile:
 ```zsh
-curl https://raw.githubusercontent.com/assafdori/mac-env/main/retina.itermcolors --output ~/Downloads/coolnight.itermcolors
+curl https://raw.githubusercontent.com/assafdori/mac-env/main/retina.itermcolors --output ~/Downloads/retina.itermcolors
 ```
 Apply theme by doing:
 
