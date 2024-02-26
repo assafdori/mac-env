@@ -59,6 +59,7 @@ Download the following colors profile:
 ```
 curl https://raw.githubusercontent.com/assafdori/mac-env/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
 ```
+Apply theme by doing:
 iTerm2 > Preferences > Profiles > Colors > Import theme > Select theme
 
 ### Install ZSH Plugins
