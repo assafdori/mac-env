@@ -56,7 +56,7 @@ p10k configure
 ### Change iTerm2 Colors Theme (Optional)
 Download the following colors profile:
 ```
-curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
+curl https://raw.githubusercontent.com/assafdori/mac-env/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
 ```
 iTerm2 > Preferences > Profiles > Colors > Import theme > Select theme
 
