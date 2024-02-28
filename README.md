@@ -80,3 +80,8 @@ Load new plugins by running:
 ```zsh
 source ~/.zshrc
 ```
+
+Enable syntax highlighting in vim
+```zsh
+echo "syntax on" >> ~/.vimrc
+```
