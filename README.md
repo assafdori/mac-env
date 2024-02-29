@@ -114,7 +114,7 @@ echo "syntax on" >> ~/.vimrc
 ### 12. Configuring ZED User Settings
 
 ```json
-"theme": "Ayu Light",
+"theme": "Andromeda",
 "vim_mode": false,
 "ui_font_size": 13,
 "buffer_font_size": 13,
