@@ -1,6 +1,6 @@
 # Mac Terminal Setup 🪄
 
-As of February 2024 these instructions are my personal preference default settings for iTerm2 and VS Code.
+As of February 2024 this setup is my personal preference development environment configuration.
 
 ### 1. Install Homebrew
 
