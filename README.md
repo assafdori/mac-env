@@ -96,7 +96,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 Open "~/.zshrc file and add above plugins, example:
 
 ```zsh
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 ```
 
 Load new plugins by running:
