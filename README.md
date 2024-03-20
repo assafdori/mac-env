@@ -120,3 +120,12 @@ echo "syntax on" >> ~/.vimrc
 "buffer_font_size": 13,
 "buffer_font_family": "MesloLGS NF"
 ```
+
+```zsh
+### 13. Custom .zshrc aliases
+alias k="kubectl"
+alias g="git"
+alias d="docker"
+alias dcu="docker compose up -d"
+alias dcd="docker compose down"
+```
