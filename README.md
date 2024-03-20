@@ -121,8 +121,9 @@ echo "syntax on" >> ~/.vimrc
 "buffer_font_family": "MesloLGS NF"
 ```
 
-```zsh
+
 ### 13. Custom .zshrc aliases
+```zsh
 alias k="kubectl"
 alias g="git"
 alias d="docker"
