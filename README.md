@@ -122,7 +122,7 @@ echo "syntax on" >> ~/.vimrc
 ```
 
 
-### 13. Configure Custom Aliases
+### 13. Configure Custom Aliases for ~/.zshrc
 ```zsh
 alias k="kubectl"
 alias g="git"
