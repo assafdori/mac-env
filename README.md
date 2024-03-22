@@ -105,7 +105,7 @@ Load new plugins by running:
 source ~/.zshrc
 ```
 
-### 11. Enable Syntax Highlighting in Vim
+### 11. Enable Syntax-Highlighting in Vim
 
 ```zsh
 echo "syntax on" >> ~/.vimrc
