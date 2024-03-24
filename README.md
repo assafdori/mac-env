@@ -56,7 +56,9 @@ source ~/.zshrc
 Open user settings.json and add this line:
 
 ```zsh
-"terminal.integrated.fontFamily": "MesloLGS NF"
+"terminal.integrated.fontFamily": "MesloLGS NF",
+"editor.fontSize": 12,
+"terminal.integrated.fontSize": 15
 ```
 
 ### 8. Configure Powerlevel10K
