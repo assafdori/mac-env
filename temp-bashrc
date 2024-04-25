@@ -1,0 +1,62 @@
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Set to superior editing mode
+set -o vi
+
+# keybinds
+bind -x '"\C-l":clear'
+# ~~~~~~~~~~~~~~~ Environment Variables ~~~~~~~~~~~~~~~~~~~~~~~~
+
+export VISUAL=nvim
+export EDITOR=nvim
+
+# config
+export BROWSER="firefox"
+
+# directories
+export REPOS="$HOME/Repostories"
+export GITUSER="assafdori"
+export GHREPOS="$REPOS/github.com/$GITUSER"
+export ICLOUD="$HOME/icloud"
+export SECOND_BRAIN="$HOME/garden"
+
+# ~~~~~~~~~~~~~~~ Aliases ~~~~~~~~~~~~~~~~~~~~~~~~
+
+alias v=nvim
+
+# cd
+alias ..="cd .."
+alias c="clear"
+alias icloud="cd \$ICLOUD"
+
+# Repos
+alias repos='cd $REPOS'
+alias ghrepos='cd $GHREPOS'
+
+
+# ls
+alias ls='ls --color=auto'
+alias ll='ls -la'
+# alias la='exa -laghm@ --all --icons --git --color=always'
+alias la='ls -lathr'
+
+
+alias sv='sudoedit'
+alias t='tmux'
+alias e='exit'
+
+# git
+alias gp='git pull'
+alias gs='git status'
+alias lg='lazygit'
+
+# vim & second brain
+alias sb="cd \$SECOND_BRAIN"
+
+# terraform
+alias tf='terraform'
+alias tp='terraform plan'
+
+# kubectl
+alias k='kubectl'
