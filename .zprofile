@@ -13,6 +13,11 @@ ln -sf "$ICLOUD" ~/icloud
 export REPOS="$HOME/Repositories"
 export GITUSER="assafdori"
 export GHREPOS="$REPOS/github.com/$GITUSER"
+export XDG_CONFIG_HOME="$HOME"/.config
+
+# Create directories
+mkdir -p "$XDG_CONFIG_HOME"/alacritty
+mkdir -p "$XDG_CONFIG_HOME"/alacritty/themes
 
 # Define aliases
 alias repos="cd $REPOS"
@@ -23,3 +28,4 @@ alias ls='ls --color=auto'
 alias l='ls -la'
 alias ..="cd .."
 alias c="clear"
+alias xdg="cd \"$XDG_CONFIG_HOME/\""
