@@ -145,3 +145,5 @@ alias d="docker"
 alias dcu="docker compose up -d"
 alias dcd="docker compose down"
 ```
+
+### 14. Pay attention to new .zprofile configuration file.
