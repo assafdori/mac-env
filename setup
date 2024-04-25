@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# This is the setup script for my config. The idea is to be able to run
+# this after cloning the repo on a Mac or Ubuntu (WSL) system and be up
+# and running very quickly.
+
+# create directories
+export XDG_CONFIG_HOME="$HOME"/.config
+mkdir -p "$XDG_CONFIG_HOME"/alacritty
+mkdir -p "$XDG_CONFIG_HOME"/alacritty/themes
+
+
+git clone https://github.com/alacritty/alacritty-theme "$XDG_CONFIG_HOME"/alacritty/themes
+
+# Symbolic links
+# ln -sf "$PWD/alacritty.toml" "$XDG_CONFIG_HOME"/alacritty/alacritty.toml
+# ln -sf "$PWD/.bashrc" "$HOME"/.bashrc
+# ln -sf "$PWD/.inputrc" "$HOME"/.inputrc
+# ln -sf "$PWD/.tmux.conf" "$HOME"/.tmux.conf
+# ln -sf "$PWD/nvim" "$XDG_CONFIG_HOME"/nvim
+
+# Second Brain
+export SECOND_BRAIN=("/Users/assafdori/Library/Mobile Documents/com~apple~CloudDocs/Documents/The Garden")
+ln -sf "$SECOND_BRAIN" ~/garden
+
+# iCloud
+export ICLOUD=("/Users/assafdori/Library/Mobile Documents/com~apple~CloudDocs")
+ln -sf "$ICLOUD" ~/icloud
+
+# # install brew
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# brew install --cask alacritty
+
+# #brew packages Mac
+# brew install amethyst fzf nvim exa hugo bash-completion@2 newsboat kubectl starship
+
+# # ubuntu brew for vim and neovim setup
+# sudo apt install fd fzf kubectl kubectx derailed/k9s/k9s starship
+
+# # ubuntu brew for neovim setup
+# brew install neovim go lazygit
