@@ -57,13 +57,17 @@ Open user settings.json and add this line:
 
 ```zsh
 {
-    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontFamily": "UbuntuMono Nerd Font",
     "editor.fontSize": 12,
     "terminal.integrated.fontSize": 15,
     "git.confirmSync": false,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "workbench.startupEditor": "none",
     "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always"
+    },
     "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
     "workbench.colorTheme": "Monokai Pro (Filter Machine)",
     "terminal.integrated.cursorBlinking": true
