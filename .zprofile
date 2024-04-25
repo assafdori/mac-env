@@ -29,3 +29,6 @@ alias l='ls -la'
 alias ..="cd .."
 alias c="clear"
 alias xdg="cd \"$XDG_CONFIG_HOME/\""
+alias tf="terraform"
+alias dcu="docker compose up -d"
+alias dcd="docker compose down"
