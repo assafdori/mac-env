@@ -1,6 +1,6 @@
 # Mac Terminal Setup 🪄
 
-As of February 2024 this setup is my personal preference development environment configuration.
+As of April 2024, this setup is my personal preference development environment configuration.
 
 ### 1. Install Homebrew
 
@@ -146,4 +146,4 @@ alias dcu="docker compose up -d"
 alias dcd="docker compose down"
 ```
 
-### 14. Pay attention to new .zprofile configuration file.
+### 14. Pay attention to new .
