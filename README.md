@@ -1,5 +1,7 @@
 # Mac Terminal Setup 🪄
 
+NOTE: migrated to dotfiles repository, refer there for updated setup. 
+
 As of April 2024, this setup is my personal preference development environment configuration.
 
 ### 1. Install Homebrew
