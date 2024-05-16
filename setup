@@ -27,6 +27,9 @@ ln -sf "$SECOND_BRAIN" ~/garden
 export ICLOUD=("/Users/assafdori/Library/Mobile Documents/com~apple~CloudDocs")
 ln -sf "$ICLOUD" ~/icloud
 
+# Java link for Homebrew
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
 # # install brew
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
